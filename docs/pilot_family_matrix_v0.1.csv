@@ -1,0 +1,11 @@
+family_id,domain,role_relation,speaker_role,addressee_role,core_event
+IWA_001,feedback_request,upward,analyst,manager,Request feedback on a quarterly report draft before finalization
+IWA_002,decision_disagreement,upward,project_specialist,manager,Express disagreement with a proposed project decision
+IWA_003,deadline_clarification,upward,coordinator,manager,Request clarification of an ambiguous project deadline
+IWA_004,workload_concern,upward,analyst,manager,Raise a capacity concern about an additional assignment
+IWA_005,error_identification,peer,analyst,analyst,Identify an error in jointly prepared work
+IWA_006,overdue_contribution,peer,project_coordinator,project_coordinator,Request a contribution that is past the agreed internal deadline
+IWA_007,process_change,peer,team_member,team_member,Propose a change to the shared project workflow
+IWA_008,revision_request,downward,manager,analyst,Request revision of an incomplete section of work
+IWA_009,priority_clarification,downward,team_lead,team_member,Clarify which of two competing tasks should receive priority
+IWA_010,evidence_request,downward,manager,analyst,Request supporting evidence for a project estimate

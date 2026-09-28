@@ -2,7 +2,7 @@
   "schema_version": "0.1",
   "project": "intercultural-workplace-ai",
   "family_id": "IWA_001",
-  "domain": "project_coordination",
+  "domain": "feedback_request",
   "role_relation": "upward",
   "speaker_role": "analyst",
   "addressee_role": "manager",
