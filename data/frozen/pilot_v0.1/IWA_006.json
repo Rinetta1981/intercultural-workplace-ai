@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "project": "intercultural-workplace-ai",
+  "family_id": "IWA_006",
+  "domain": "overdue_contribution",
+  "role_relation": "peer",
+  "speaker_role": "project_coordinator",
+  "addressee_role": "project_coordinator",
+  "invariant_facts": {
+    "context": "Two project coordinators agreed that one would send a risk summary by Tuesday for inclusion in a joint project update.",
+    "event": "It is Wednesday and the risk summary has not been sent, so the other coordinator asks for it today.",
+    "requested_action": "Send the overdue risk summary today.",
+    "deadline": "Today",
+    "organizational_stakes": "The risk summary is needed for the joint project update."
+  },
+  "evaluation_question": "Evaluate the communicator's professionalism, competence, cooperativeness, leadership potential, communicative appropriateness, and the appropriate managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "You have not sent the risk summary that was due Tuesday. Please send it today so I can include it in our project update."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "You have not provided the risk summary that was due Tuesday. Please provide it today for inclusion in the joint project update."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I wanted to flag that you have not sent the risk summary that was due Tuesday. Could you please send it today so I can include it in our project update?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I wanted to note that you have not provided the risk summary that was due Tuesday. Could you please provide it today for inclusion in the joint project update?"
+    }
+  }
+}

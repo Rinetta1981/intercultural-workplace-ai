@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "project": "intercultural-workplace-ai",
+  "family_id": "IWA_008",
+  "domain": "revision_request",
+  "role_relation": "downward",
+  "speaker_role": "manager",
+  "addressee_role": "analyst",
+  "invariant_facts": {
+    "context": "An analyst submitted a draft section that does not include the required comparison of the three vendors.",
+    "event": "The manager asks the analyst to add the missing three-vendor comparison before the draft is circulated tomorrow.",
+    "requested_action": "Add the required comparison of all three vendors.",
+    "deadline": "Before circulation tomorrow",
+    "organizational_stakes": "The draft is scheduled to be circulated tomorrow and currently lacks a required comparison."
+  },
+  "evaluation_question": "Evaluate the communicator's professionalism, competence, cooperativeness, leadership potential, communicative appropriateness, and the appropriate managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "The draft is missing the required comparison of the three vendors. Please add it before we circulate the document tomorrow."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "The draft does not include the required comparison of the three vendors. Please add this section before circulation of the document tomorrow."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I wanted to flag that the draft is missing the required comparison of the three vendors. Could you please add it before we circulate the document tomorrow?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I wanted to flag that the draft does not include the required comparison of the three vendors. Could you please add this section before circulation of the document tomorrow?"
+    }
+  }
+}

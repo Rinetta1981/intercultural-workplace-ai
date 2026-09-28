@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "project": "intercultural-workplace-ai",
+  "family_id": "IWA_009",
+  "domain": "priority_clarification",
+  "role_relation": "downward",
+  "speaker_role": "team_lead",
+  "addressee_role": "team_member",
+  "invariant_facts": {
+    "context": "A team member is working on a client briefing and an internal data-cleaning task, and both are currently scheduled for Friday.",
+    "event": "The team lead tells the team member to prioritize the client briefing and complete the data-cleaning task afterward.",
+    "requested_action": "Prioritize the client briefing before the internal data-cleaning task.",
+    "deadline": "Friday",
+    "organizational_stakes": "Both tasks are currently scheduled for Friday, so their order of priority needs to be clear."
+  },
+  "evaluation_question": "Evaluate the communicator's professionalism, competence, cooperativeness, leadership potential, communicative appropriateness, and the appropriate managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "Both tasks are due Friday. Please prioritize the client briefing and complete the data-cleaning task afterward."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "Both assignments are scheduled for Friday. Please give priority to the client briefing and complete the internal data-cleaning task afterward."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "Both tasks are due Friday. Could you please prioritize the client briefing and complete the data-cleaning task afterward?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "Both assignments are scheduled for Friday. Could you please give priority to the client briefing and complete the internal data-cleaning task afterward?"
+    }
+  }
+}

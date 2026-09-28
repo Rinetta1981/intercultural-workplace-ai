@@ -1,0 +1,55 @@
+{
+  "freeze_version": "v0.1",
+  "project": "intercultural-workplace-ai",
+  "prefix": "IWA",
+  "family_count": 10,
+  "conditions_per_family": 4,
+  "message_count": 40,
+  "source_directory": "intercultural-workplace-ai/data/raw",
+  "frozen_directory": "intercultural-workplace-ai/data/frozen/pilot_v0.1",
+  "created_utc": "2026-09-28T13:30:23.596027+00:00",
+  "files": [
+    {
+      "file": "IWA_001.json",
+      "sha256": "f4ebee862868b9ec9430fc51902d9a53eec0c0d267953f1e99ca62f49ccb5680"
+    },
+    {
+      "file": "IWA_002.json",
+      "sha256": "da4f8f8e5d91fd3cd6fc54e27047cf5ca8b2afadd5a8132bbae0dd76c9dc32cc"
+    },
+    {
+      "file": "IWA_003.json",
+      "sha256": "6e80dd483dd5a872be359f5d54be78a397e6e79a83bcae1b9c62043d2667008f"
+    },
+    {
+      "file": "IWA_004.json",
+      "sha256": "5c56b2b26e9e2bdfe094a03e06383abf4ab127028d360637969d0072c8e346d7"
+    },
+    {
+      "file": "IWA_005.json",
+      "sha256": "aa2f665f38e0cafc31bd82f82c6b70cf7eb8a94812ad06d41aa0b3ee057f6afc"
+    },
+    {
+      "file": "IWA_006.json",
+      "sha256": "1c75c34c2d157d5ed81f33b03396f7edce81ca8b50d264ad9b795a83c145a665"
+    },
+    {
+      "file": "IWA_007.json",
+      "sha256": "01eb70bdb5504c8ea04f10550beaa1d57d707c7015d863d1ccffadbf2790e7de"
+    },
+    {
+      "file": "IWA_008.json",
+      "sha256": "875ed185469c1c5146127438b85ffa3c3222b5efdc67e60b12717c1c3f328209"
+    },
+    {
+      "file": "IWA_009.json",
+      "sha256": "e4285295b48602bf41b9361a337c9f2a3e829e588e9070d9fed12420ddb45b86"
+    },
+    {
+      "file": "IWA_010.json",
+      "sha256": "0a675a65f6f5d848321a0411c879dc8cd6cc87ed7368452a5f533ac59e9bdec3"
+    }
+  ],
+  "dataset_sha256": "26529f311aaf343ccdc4ea5341827d5ed868099b974253d5240ee8c63243c8b6",
+  "immutability_note": "This directory is a frozen research artifact. Do not modify files in place; create a new dataset version instead."
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "project": "intercultural-workplace-ai",
+  "family_id": "IWA_010",
+  "domain": "evidence_request",
+  "role_relation": "downward",
+  "speaker_role": "manager",
+  "addressee_role": "analyst",
+  "invariant_facts": {
+    "context": "An analyst estimated that a proposed process change would reduce processing time by 20 percent, but the draft does not show the basis for that estimate.",
+    "event": "The manager asks the analyst to provide the evidence or calculation supporting the 20 percent estimate before the proposal is reviewed.",
+    "requested_action": "Provide the evidence or calculation supporting the 20 percent estimate.",
+    "deadline": "Before proposal review",
+    "organizational_stakes": "The estimate will be considered in the review of the proposed process change."
+  },
+  "evaluation_question": "Evaluate the communicator's professionalism, competence, cooperativeness, leadership potential, communicative appropriateness, and the appropriate managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "The draft says the change will cut processing time by 20 percent, but it does not show how that figure was calculated. Please provide the evidence or calculation before we review the proposal."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "The draft states that the change will reduce processing time by 20 percent but does not document the basis for that estimate. Please provide the supporting evidence or calculation before review of the proposal."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I wanted to flag that the draft says the change will cut processing time by 20 percent, but it does not show how that figure was calculated. Could you please provide the evidence or calculation before we review the proposal?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I wanted to flag that the draft states that the change will reduce processing time by 20 percent, but it does not show the basis for that estimate. Could you please provide the supporting evidence or calculation before review of the proposal?"
+    }
+  }
+}

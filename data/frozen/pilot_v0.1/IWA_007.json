@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "project": "intercultural-workplace-ai",
+  "family_id": "IWA_007",
+  "domain": "process_change",
+  "role_relation": "peer",
+  "speaker_role": "team_member",
+  "addressee_role": "team_member",
+  "invariant_facts": {
+    "context": "Two team members currently keep separate copies of a shared task tracker, which requires them to reconcile changes manually.",
+    "event": "One team member proposes using one shared tracker instead of maintaining two separate copies.",
+    "requested_action": "Use one shared task tracker instead of two separate copies.",
+    "deadline": null,
+    "organizational_stakes": "The current process requires manual reconciliation of duplicate tracker copies."
+  },
+  "evaluation_question": "Evaluate the communicator's professionalism, competence, cooperativeness, leadership potential, communicative appropriateness, and the appropriate managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "We are keeping two copies of the task tracker and then reconciling them manually. I think we should use one shared tracker instead."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "We currently maintain two versions of the task tracker and reconcile them manually. I recommend moving to a single shared tracker."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "We are keeping two copies of the task tracker and then reconciling them manually. Could we consider using one shared tracker instead?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "We currently maintain two versions of the task tracker and reconcile them manually. Could we consider moving to a single shared tracker?"
+    }
+  }
+}

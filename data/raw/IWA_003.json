@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "project": "intercultural-workplace-ai",
+  "family_id": "IWA_003",
+  "domain": "deadline_clarification",
+  "role_relation": "upward",
+  "speaker_role": "coordinator",
+  "addressee_role": "manager",
+  "invariant_facts": {
+    "context": "A coordinator received a project note stating that a draft is due next week, but the note does not specify the day.",
+    "event": "The coordinator asks the manager to clarify which day next week the draft is due.",
+    "requested_action": "Specify the exact day next week when the draft is due.",
+    "deadline": "Next week",
+    "organizational_stakes": "The coordinator needs the exact date to schedule the remaining work."
+  },
+  "evaluation_question": "Evaluate the communicator's professionalism, competence, cooperativeness, leadership potential, communicative appropriateness, and the appropriate managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "The note says the draft is due next week, but it does not give a day. Please tell me the exact day it is due so I can schedule the remaining work."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "The project note states that the draft is due next week but does not specify a date. Please confirm the exact due date so I can schedule the remaining work."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "The note says the draft is due next week, but it does not give a day. Could you please let me know the exact day it is due so I can schedule the remaining work?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "The project note states that the draft is due next week but does not specify a date. Could you please confirm the exact due date so I can schedule the remaining work?"
+    }
+  }
+}

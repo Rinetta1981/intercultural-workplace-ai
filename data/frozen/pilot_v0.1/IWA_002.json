@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "project": "intercultural-workplace-ai",
+  "family_id": "IWA_002",
+  "domain": "decision_disagreement",
+  "role_relation": "upward",
+  "speaker_role": "project_specialist",
+  "addressee_role": "manager",
+  "invariant_facts": {
+    "context": "A project specialist has reviewed a proposed change to the client onboarding process and believes it will add an unnecessary approval step.",
+    "event": "The specialist tells the manager that they disagree with the proposed change and recommends keeping the current approval sequence.",
+    "requested_action": "Reconsider the proposed onboarding change and retain the current approval sequence.",
+    "deadline": null,
+    "organizational_stakes": "The decision will determine the approval sequence used in the next onboarding cycle."
+  },
+  "evaluation_question": "Evaluate the communicator's professionalism, competence, cooperativeness, leadership potential, communicative appropriateness, and the appropriate managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "I disagree with the proposed onboarding change because it adds an approval step we do not need. I recommend keeping the current sequence."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "I disagree with the proposed onboarding change because it introduces an unnecessary approval stage. I recommend retaining the current approval sequence."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I wanted to raise that I disagree with the proposed onboarding change because it adds an approval step we do not need. Could we reconsider it and keep the current sequence?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I wanted to raise that I disagree with the proposed onboarding change because it introduces an unnecessary approval stage. Could we reconsider it and retain the current approval sequence?"
+    }
+  }
+}

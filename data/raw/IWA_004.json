@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "project": "intercultural-workplace-ai",
+  "family_id": "IWA_004",
+  "domain": "workload_concern",
+  "role_relation": "upward",
+  "speaker_role": "analyst",
+  "addressee_role": "manager",
+  "invariant_facts": {
+    "context": "An analyst is already assigned two deliverables due on Friday and is given a third assignment with the same deadline.",
+    "event": "The analyst tells the manager that completing all three assignments by Friday is not feasible and asks which task should be prioritized.",
+    "requested_action": "Clarify which of the three Friday assignments should be prioritized.",
+    "deadline": "Friday",
+    "organizational_stakes": "All three assignments currently have the same deadline, and the analyst cannot complete all three by that time."
+  },
+  "evaluation_question": "Evaluate the communicator's professionalism, competence, cooperativeness, leadership potential, communicative appropriateness, and the appropriate managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "I already have two deliverables due Friday, and this adds a third. I cannot complete all three by Friday. Please tell me which task I should prioritize."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "I currently have two deliverables due Friday, and this assignment creates a third concurrent deadline. Completing all three by Friday is not feasible. Please confirm which assignment should receive priority."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I wanted to flag that I already have two deliverables due Friday, and this adds a third. I cannot complete all three by Friday. Could you please let me know which task I should prioritize?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I wanted to flag that I currently have two deliverables due Friday, and this assignment creates a third concurrent deadline. Completing all three by Friday is not feasible. Could you please confirm which assignment should receive priority?"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "project": "intercultural-workplace-ai",
+  "family_id": "IWA_005",
+  "domain": "error_identification",
+  "role_relation": "peer",
+  "speaker_role": "analyst",
+  "addressee_role": "analyst",
+  "invariant_facts": {
+    "context": "Two analysts are preparing a shared budget table, and one formula currently counts the same expense category twice.",
+    "event": "One analyst points out the duplicate calculation and asks the colleague to correct the formula before the table is submitted.",
+    "requested_action": "Correct the formula that counts the same expense category twice.",
+    "deadline": "Before submission",
+    "organizational_stakes": "The shared budget table should not be submitted with a duplicated expense calculation."
+  },
+  "evaluation_question": "Evaluate the communicator's professionalism, competence, cooperativeness, leadership potential, communicative appropriateness, and the appropriate managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "This formula counts the same expense category twice. Please correct it before we submit the budget table."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "This formula counts the same expense category twice. Please correct the formula before submission of the budget table."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I wanted to flag that this formula counts the same expense category twice. Could you please correct it before we submit the budget table?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I wanted to flag that this formula counts the same expense category twice. Could you please correct the formula before submission of the budget table?"
+    }
+  }
+}
