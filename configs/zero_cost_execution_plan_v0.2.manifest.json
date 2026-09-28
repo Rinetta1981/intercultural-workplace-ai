@@ -1,0 +1,10 @@
+{
+  "execution_design_version": "0.2",
+  "row_count": 240,
+  "observations_per_system": 120,
+  "queue_csv_sha256": "e66355a02c2e394af31db9d95f73db4bc8c72b1d5762529a7237e3b565a8cea1",
+  "system_set_sha256": "37866dd9d2e9c2e2018c55f72f1a65a32b969d2f4f694137311a0710d2b260ec",
+  "execution_plan_csv_sha256": "9e756e29ec861bdf5d56a3f84c9171f83183b18f89f38acd144fa5e8fa96df86",
+  "execution_plan_csv": "intercultural-workplace-ai/configs/zero_cost_execution_plan_v0.2.csv",
+  "cost_constraint": "EUR 0 additional project spend"
+}

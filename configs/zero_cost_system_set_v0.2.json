@@ -1,0 +1,57 @@
+{
+  "system_set_version": "0.2",
+  "frozen_date": "2026-09-28",
+  "design_name": "zero-additional-cost-two-system-design",
+  "hard_cost_constraint": {
+    "additional_project_spend_eur": 0,
+    "paid_api_calls_allowed": false,
+    "purchased_workspace_credits_allowed": false,
+    "automatic_paid_fallback_allowed": false
+  },
+  "systems": [
+    {
+      "system_id": "gemini_api_free",
+      "vendor": "Google",
+      "product": "Gemini Developer API",
+      "model": "gemini-3.8-flash",
+      "access_mode": "free_tier_api",
+      "collection_mode": "automated_api",
+      "reasoning_setting": {
+        "thinking_level": "low"
+      },
+      "structured_output": true,
+      "tools": "disabled",
+      "grounding": "disabled",
+      "billing_guard": {
+        "require_project_tier": "Free",
+        "enable_billing_or_upgrade": false,
+        "on_quota_exhaustion": "pause_and_resume_after_quota_reset",
+        "never_switch_to_paid_tier": true
+      },
+      "research_note": "Free-tier content may be used by Google to improve products."
+    },
+    {
+      "system_id": "chatgpt_business_ui",
+      "vendor": "OpenAI",
+      "product": "ChatGPT Business",
+      "model": "GPT-5.6 Sol",
+      "access_mode": "included_business_chat_usage",
+      "collection_mode": "manual_ui",
+      "reasoning_setting": {
+        "chat_reasoning": "Medium"
+      },
+      "structured_output": "prompt-constrained JSON; locally schema-validated after collection",
+      "tools": "disabled",
+      "web_search": "disabled",
+      "temporary_chat": true,
+      "personalization": "Unpersonalized",
+      "billing_guard": {
+        "purchased_workspace_credits_allowed": false,
+        "auto_reload_allowed": false,
+        "on_included_limit_exhaustion": "stop_and_wait_for_reset",
+        "if_model_fallback_occurs": "mark_attempt_invalid_and_retry_after_reset"
+      },
+      "research_note": "This is a deployed-product condition, not an OpenAI API condition."
+    }
+  ]
+}
