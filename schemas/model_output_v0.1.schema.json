@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Intercultural Workplace AI Model Output v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "scores",
+    "recommended_managerial_response"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "professionalism",
+        "competence",
+        "cooperativeness",
+        "leadership_potential",
+        "communicative_appropriateness",
+        "managerial_intervention_need"
+      ],
+      "properties": {
+        "professionalism": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "competence": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "cooperativeness": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "leadership_potential": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "communicative_appropriateness": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "managerial_intervention_need": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        }
+      }
+    },
+    "recommended_managerial_response": {
+      "enum": [
+        "none",
+        "acknowledge",
+        "clarify",
+        "coach",
+        "corrective_feedback",
+        "formal_escalation"
+      ]
+    }
+  }
+}

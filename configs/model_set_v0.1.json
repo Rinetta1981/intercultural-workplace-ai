@@ -1,0 +1,42 @@
+{
+  "model_set_version": "0.1",
+  "name": "balanced-current-stable-3provider-v0.1",
+  "frozen_date": "2026-09-28",
+  "selection_rule": "One current general-purpose production model from each of OpenAI, Anthropic, and Google, prioritizing broad availability, structured-output support, and tractable repeated-evaluation cost. Models are not assumed to be capability-equivalent.",
+  "sampling_policy": "Provider-default sampling parameters; three replicates quantify residual stochasticity.",
+  "models": [
+    {
+      "provider": "openai",
+      "model_id": "gpt-5.6-sol",
+      "api_surface": "Responses API",
+      "reasoning_setting": {
+        "reasoning.effort": "low"
+      },
+      "sampling_parameters": "provider defaults",
+      "structured_outputs": true,
+      "model_id_note": "Use gpt-5.6-sol exactly as documented by OpenAI."
+    },
+    {
+      "provider": "anthropic",
+      "model_id": "claude-sonnet-5",
+      "api_surface": "Messages API",
+      "reasoning_setting": {
+        "output_config.effort": "low"
+      },
+      "sampling_parameters": "provider defaults; do not set non-default temperature/top_p/top_k",
+      "structured_outputs": true,
+      "model_id_note": "Canonical dateless Claude 5 model ID; Anthropic documents post-4.6 dateless IDs as pinned snapshots."
+    },
+    {
+      "provider": "google",
+      "model_id": "gemini-3.8-flash",
+      "api_surface": "Gemini Interactions API",
+      "reasoning_setting": {
+        "generation_config.thinking_level": "low"
+      },
+      "sampling_parameters": "provider defaults",
+      "structured_outputs": true,
+      "model_id_note": "Stable GA Gemini 3.8 Flash model code."
+    }
+  ]
+}

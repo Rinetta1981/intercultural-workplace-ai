@@ -1,0 +1,12 @@
+{
+  "queue_version": "0.1",
+  "seed": 20260928,
+  "replicates": 3,
+  "family_count": 10,
+  "conditions_per_family": 4,
+  "row_count": 120,
+  "frozen_dataset_sha256": "26529f311aaf343ccdc4ea5341827d5ed868099b974253d5240ee8c63243c8b6",
+  "prompt_template_sha256": "dd3f13806eb26743db7816a9718349982ff2bf866f6a2d714d64fe77169145d7",
+  "queue_csv_sha256": "e66355a02c2e394af31db9d95f73db4bc8c72b1d5762529a7237e3b565a8cea1",
+  "queue_csv": "intercultural-workplace-ai/configs/evaluation_queue_v0.1.csv"
+}
