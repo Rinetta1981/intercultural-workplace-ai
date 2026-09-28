@@ -1,0 +1,196 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Intercultural Workplace AI Scenario Family v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "project",
+    "family_id",
+    "domain",
+    "role_relation",
+    "speaker_role",
+    "addressee_role",
+    "invariant_facts",
+    "evaluation_question",
+    "conditions"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "project": {
+      "const": "intercultural-workplace-ai"
+    },
+    "family_id": {
+      "type": "string",
+      "pattern": "^IWA_[0-9]{3}$"
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 3
+    },
+    "role_relation": {
+      "enum": [
+        "upward",
+        "peer",
+        "downward"
+      ]
+    },
+    "speaker_role": {
+      "type": "string",
+      "minLength": 2
+    },
+    "addressee_role": {
+      "type": "string",
+      "minLength": 2
+    },
+    "invariant_facts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "context",
+        "event",
+        "requested_action",
+        "organizational_stakes"
+      ],
+      "properties": {
+        "context": {
+          "type": "string",
+          "minLength": 10
+        },
+        "event": {
+          "type": "string",
+          "minLength": 10
+        },
+        "requested_action": {
+          "type": "string",
+          "minLength": 3
+        },
+        "deadline": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "organizational_stakes": {
+          "type": "string",
+          "minLength": 3
+        }
+      }
+    },
+    "evaluation_question": {
+      "type": "string",
+      "minLength": 10
+    },
+    "conditions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "DC",
+        "DI",
+        "MC",
+        "MI"
+      ],
+      "properties": {
+        "DC": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/condition"
+            },
+            {
+              "properties": {
+                "directness": {
+                  "const": "direct"
+                },
+                "register": {
+                  "const": "conversational"
+                }
+              }
+            }
+          ]
+        },
+        "DI": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/condition"
+            },
+            {
+              "properties": {
+                "directness": {
+                  "const": "direct"
+                },
+                "register": {
+                  "const": "institutional"
+                }
+              }
+            }
+          ]
+        },
+        "MC": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/condition"
+            },
+            {
+              "properties": {
+                "directness": {
+                  "const": "mitigated"
+                },
+                "register": {
+                  "const": "conversational"
+                }
+              }
+            }
+          ]
+        },
+        "MI": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/condition"
+            },
+            {
+              "properties": {
+                "directness": {
+                  "const": "mitigated"
+                },
+                "register": {
+                  "const": "institutional"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "$defs": {
+    "condition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "directness",
+        "register",
+        "message"
+      ],
+      "properties": {
+        "directness": {
+          "enum": [
+            "direct",
+            "mitigated"
+          ]
+        },
+        "register": {
+          "enum": [
+            "conversational",
+            "institutional"
+          ]
+        },
+        "message": {
+          "type": "string",
+          "minLength": 10
+        }
+      }
+    }
+  }
+}
