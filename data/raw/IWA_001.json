@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "project": "intercultural-workplace-ai",
+  "family_id": "IWA_001",
+  "domain": "project_coordination",
+  "role_relation": "upward",
+  "speaker_role": "analyst",
+  "addressee_role": "manager",
+  "invariant_facts": {
+    "context": "An analyst is preparing a quarterly report and needs the manager's comments on the current draft before finalizing it.",
+    "event": "The analyst asks the manager to provide comments on the draft by Thursday so the report can be finalized on Friday.",
+    "requested_action": "Provide comments on the quarterly report draft by Thursday.",
+    "deadline": "Thursday",
+    "organizational_stakes": "The report is scheduled to be finalized on Friday."
+  },
+  "evaluation_question": "Evaluate the analyst's professionalism, competence, cooperativeness, leadership potential, communicative appropriateness, and the appropriate managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "Please send me your comments on the quarterly report draft by Thursday so I can finalize it on Friday."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "Please provide your comments on the quarterly report draft by Thursday to enable finalization of the report on Friday."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "Could you please send me your comments on the quarterly report draft by Thursday so I can finalize it on Friday?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "Could you please provide your comments on the quarterly report draft by Thursday to enable finalization of the report on Friday?"
+    }
+  }
+}
