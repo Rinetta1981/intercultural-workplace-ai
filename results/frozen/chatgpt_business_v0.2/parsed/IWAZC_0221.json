@@ -1,0 +1,12 @@
+{
+  "recommended_managerial_response": "none",
+  "scores": {
+    "professionalism": 7,
+    "competence": 7,
+    "cooperativeness": 6,
+    "leadership_potential": 6,
+    "communicative_appropriateness": 7,
+    "managerial_intervention_need": 1
+  },
+  "schema_version": "0.1"
+}

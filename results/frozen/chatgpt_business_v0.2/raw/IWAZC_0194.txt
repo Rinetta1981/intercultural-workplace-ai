@@ -1,0 +1,9 @@
+{
+  "professionalism": 6,
+  "competence": 5,
+  "cooperativeness": 5,
+  "leadership_potential": 5,
+  "communicative_appropriateness": 7,
+  "managerial_intervention_need": 1,
+  "recommended_managerial_response": "none"
+}
