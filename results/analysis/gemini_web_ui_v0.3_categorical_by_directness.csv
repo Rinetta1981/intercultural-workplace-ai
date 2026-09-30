@@ -1,0 +1,7 @@
+project,directness,category,count,proportion
+IWA,direct,acknowledge,12,0.2
+IWA,direct,clarify,12,0.2
+IWA,direct,none,36,0.6
+IWA,mitigated,acknowledge,11,0.18333333333333332
+IWA,mitigated,clarify,13,0.21666666666666667
+IWA,mitigated,none,36,0.6

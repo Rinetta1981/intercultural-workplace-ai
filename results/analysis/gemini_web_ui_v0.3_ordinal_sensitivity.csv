@@ -1,0 +1,16 @@
+"project","system_id","model","reasoning","outcome","term","coefficient","std_error","z_value","p_value","n","n_families","n_levels_observed"
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","communicative_appropriateness","directness",-22.8628410107514,559.761459363103,-0.0408438998940097,0.967420341485573,120,10,3
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","communicative_appropriateness","register",0.552745490688583,433.588084819237,0.00127481706726102,0.998982843419691,120,10,3
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","communicative_appropriateness","interaction",1.54162101293376,433.587646862889,0.00355550031023198,0.997163127173631,120,10,3
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","competence","directness",-0.784880037224671,0.651783953491359,-1.2042027623116,0.228511218592224,120,10,3
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","competence","register",0.176398173496304,0.640464048021917,0.275422444149852,0.782991702693224,120,10,3
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","competence","interaction",0.612582399657436,0.908489742697945,0.674286533866908,0.500129163628162,120,10,3
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","cooperativeness","directness",-2.02622953219285,0.747306866875041,-2.71137550316617,0.00670046978230366,120,10,3
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","cooperativeness","register",-0.377358908752932,0.613605326907583,-0.614986363718069,0.538563725915516,120,10,3
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","cooperativeness","interaction",0.0990897660559956,0.957748146222531,0.103461193265492,0.917596947451595,120,10,3
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","leadership_potential","directness",-2.4476074509601,0.648897894191001,-3.77194543682654,0.000161979681711239,120,10,3
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","leadership_potential","register",-0.0053959737334821,0.5755647163686,-0.00937509472006349,0.992519866241443,120,10,3
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","leadership_potential","interaction",1.37887073410565,0.844972660660464,1.631852482692,0.102710566127715,120,10,3
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","professionalism","directness",-22.8628410107514,559.761459363103,-0.0408438998940097,0.967420341485573,120,10,3
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","professionalism","register",0.552745490688583,433.588084819237,0.00127481706726102,0.998982843419691,120,10,3
+"IWA","gemini_web_ui","3.6 Flash","web_ui_selected_model","professionalism","interaction",1.54162101293376,433.587646862889,0.00355550031023198,0.997163127173631,120,10,3

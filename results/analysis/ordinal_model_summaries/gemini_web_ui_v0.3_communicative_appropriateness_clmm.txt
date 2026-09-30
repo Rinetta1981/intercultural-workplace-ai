@@ -1,0 +1,23 @@
+Cumulative Link Mixed Model fitted with the Laplace approximation
+
+formula: score_ord ~ directness * register + (1 | family_id)
+data:    dat
+
+ link  threshold nobs logLik AIC   niter    max.grad cond.H 
+ logit flexible  120  -31.35 74.71 192(935) 4.05e-07 9.2e+06
+
+Random effects:
+ Groups    Name        Variance Std.Dev.
+ family_id (Intercept) 13.72    3.704   
+Number of groups:  family_id 10 
+
+Coefficients:
+                                       Estimate Std. Error z value Pr(>|z|)
+directnessdirect                       -22.8628   559.7615  -0.041    0.967
+registerinstitutional                    0.5527   433.5881   0.001    0.999
+directnessdirect:registerinstitutional   1.5416   433.5876   0.004    0.997
+
+Threshold coefficients:
+    Estimate Std. Error z value
+5|6   -30.27     559.77  -0.054
+6|7   -21.91     559.76  -0.039

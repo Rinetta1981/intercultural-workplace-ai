@@ -1,0 +1,9 @@
+"project","outcome","status","n","n_levels_observed","warning"
+"IWA","communicative_appropriateness","fit_ok",120,3,"(1) Hessian is numerically singular: parameters are not uniquely determined 
+In addition: Absolute convergence criterion was met, but relative criterion was not met"
+"IWA","competence","fit_ok",120,3,""
+"IWA","cooperativeness","fit_ok",120,3,""
+"IWA","leadership_potential","fit_ok",120,3,""
+"IWA","managerial_intervention_need","fit_error",120,1,"length of start is 5 should equal 3"
+"IWA","professionalism","fit_ok",120,3,"(1) Hessian is numerically singular: parameters are not uniquely determined 
+In addition: Absolute convergence criterion was met, but relative criterion was not met"
