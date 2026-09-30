@@ -1,0 +1,7 @@
+"project","system_id","model","reasoning","outcome","analysis_family","n_families","mean_contrast","median_contrast","bootstrap_ci_low_95","bootstrap_ci_high_95","exact_signflip_p","adjusted_p","adjustment","reject_adjusted_0_05"
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","competence","confirmatory",10,-0.133333333333333,-0.166666666666666,-0.216666666666667,-0.0666666666666664,0.03125,0.25,"Holm (9 confirmatory tests)","False"
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","leadership_potential","confirmatory",10,-0.283333333333333,-0.166666666666666,-0.483333333333333,-0.116666666666666,0.015625,0.140625,"Holm (9 confirmatory tests)","False"
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","managerial_intervention_need","confirmatory",10,0,0,0,0,1,1,"Holm (9 confirmatory tests)","False"
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","professionalism","secondary",10,-0.366666666666667,-0.333333333333333,-0.566666666666667,-0.2,0.0078125,0.03515625,"BH-FDR (secondary family)","True"
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","cooperativeness","secondary",10,-0.9,-0.916666666666667,-1.13333333333333,-0.666666666666667,0.001953125,0.017578125,"BH-FDR (secondary family)","True"
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","communicative_appropriateness","secondary",10,-0.283333333333333,0,-0.516666666666667,-0.0833333333333334,0.125,0.28125,"BH-FDR (secondary family)","False"
