@@ -1,0 +1,16 @@
+"project","system_id","model","reasoning","outcome","term","coefficient","std_error","z_value","p_value","n","n_families","n_levels_observed"
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","communicative_appropriateness","directness",-8.10085862979203,2.85177539710991,-2.84063697232319,0.0045023533304883,120,10,2
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","communicative_appropriateness","register",-1.0914525629816,1.52493700993197,-0.715736162131899,0.474154277155973,120,10,2
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","communicative_appropriateness","interaction",2.78327859938488,2.11095440491707,1.31849299677045,0.187338667893737,120,10,2
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","competence","directness",-2.66490573498985,0.00138714800811474,-1921.14015188018,0,120,10,3
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","competence","register",-0.610177509439383,0.00138680292495416,-439.988623083955,0,120,10,3
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","competence","interaction",1.0587158068063,0.00138679110361559,763.428467377716,0,120,10,3
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","cooperativeness","directness",-8.99614477649741,2.21574421728905,-4.06010075815706,4.90515438693136e-05,120,10,3
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","cooperativeness","register",-1.38083761795647,0.866893695128844,-1.59285691626958,0.111192293359584,120,10,3
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","cooperativeness","interaction",0.807010626888936,1.14089060495631,0.707351452788797,0.479348098089133,120,10,3
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","leadership_potential","directness",-4.05202883024947,1.41592406474862,-2.86175574745165,0.0042130144705362,120,10,4
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","leadership_potential","register",-0.628787122186305,1.14485848561467,-0.549226939475155,0.582849718975992,120,10,4
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","leadership_potential","interaction",-0.0744225515452412,1.4224071360844,-0.0523215538345172,0.958272479360464,120,10,4
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","professionalism","directness",-7.29977167869766,2.29255331266949,-3.18412297692553,0.00145193314364697,120,10,2
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","professionalism","register",1.95645454413148e-06,1.18810490008261,1.64670185603599e-06,0.999998686122013,120,10,2
+"IWA","chatgpt_business_ui","GPT-5.6 Sol","Medium","professionalism","interaction",3.04643563833304,1.67906489466215,1.81436444059896,0.0696216365436153,120,10,2

@@ -1,0 +1,13 @@
+project,condition,category,count,proportion
+IWA,DC,acknowledge,9,0.3
+IWA,DC,clarify,3,0.1
+IWA,DC,none,18,0.6
+IWA,DI,acknowledge,8,0.26666666666666666
+IWA,DI,clarify,5,0.16666666666666666
+IWA,DI,none,17,0.5666666666666667
+IWA,MC,acknowledge,10,0.3333333333333333
+IWA,MC,clarify,2,0.06666666666666667
+IWA,MC,none,18,0.6
+IWA,MI,acknowledge,7,0.23333333333333334
+IWA,MI,clarify,5,0.16666666666666666
+IWA,MI,none,18,0.6

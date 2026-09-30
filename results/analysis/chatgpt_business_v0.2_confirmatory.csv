@@ -1,0 +1,10 @@
+project,system_id,model,reasoning,outcome,contrast,n_families,mean_contrast,median_contrast,bootstrap_ci_low_95,bootstrap_ci_high_95,exact_signflip_p,holm_p_9tests,reject_holm_0_05,bootstrap_resamples,bootstrap_seed
+IWA,chatgpt_business_ui,GPT-5.6 Sol,Medium,competence,directness,10,-0.1333333333333334,-0.16666666666666607,-0.21666666666666679,-0.06666666666666643,0.03125,0.25,False,10000,2026092803
+IWA,chatgpt_business_ui,GPT-5.6 Sol,Medium,competence,register,10,-1.7763568394002506e-16,0.0,-0.11666666666666696,0.11666666666666661,1.0,1.0,False,10000,2026092803
+IWA,chatgpt_business_ui,GPT-5.6 Sol,Medium,competence,interaction,10,0.0666666666666667,0.0,-0.2,0.3666666666666667,0.84375,1.0,False,10000,2026092803
+IWA,chatgpt_business_ui,GPT-5.6 Sol,Medium,leadership_potential,directness,10,-0.2833333333333332,-0.16666666666666607,-0.4833333333333332,-0.11666666666666643,0.015625,0.140625,False,10000,2026092803
+IWA,chatgpt_business_ui,GPT-5.6 Sol,Medium,leadership_potential,register,10,-0.05,0.0,-0.20000000000000018,0.11666666666666661,0.71875,1.0,False,10000,2026092803
+IWA,chatgpt_business_ui,GPT-5.6 Sol,Medium,leadership_potential,interaction,10,-0.033333333333333215,0.0,-0.33333333333333315,0.20083333333332154,1.0,1.0,False,10000,2026092803
+IWA,chatgpt_business_ui,GPT-5.6 Sol,Medium,managerial_intervention_need,directness,10,0.0,0.0,0.0,0.0,1.0,1.0,False,10000,2026092803
+IWA,chatgpt_business_ui,GPT-5.6 Sol,Medium,managerial_intervention_need,register,10,0.0,0.0,0.0,0.0,1.0,1.0,False,10000,2026092803
+IWA,chatgpt_business_ui,GPT-5.6 Sol,Medium,managerial_intervention_need,interaction,10,0.0,0.0,0.0,0.0,1.0,1.0,False,10000,2026092803
