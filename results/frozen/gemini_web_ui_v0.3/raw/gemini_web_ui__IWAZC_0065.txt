@@ -1,0 +1,12 @@
+```json
+{
+  "professionalism": 5,
+  "competence": 6,
+  "cooperativeness": 5,
+  "leadership_potential": 5,
+  "communicative_appropriateness": 5,
+  "managerial_intervention_need": 1,
+  "recommended_managerial_response": "none"
+}
+
+```
