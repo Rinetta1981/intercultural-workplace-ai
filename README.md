@@ -14,10 +14,17 @@ When the workplace situation stays the same, does the way a person communicates 
 
 🚧 Research design and pilot development in progress.
 
-No confirmatory claims are currently made.
+Confirmatory analysis for the ChatGPT Business v0.2 system is complete. No primary test survived Holm correction; secondary and exploratory results are reported separately.
 
 ## Research program
 
 This repository is one component of a broader research program on intercultural intelligence for AI-mediated organizations.
 
 A companion project, Global Team Conflict Lab, examines AI-mediated interpretation and management of workplace conflict.
+
+## Current empirical results: ChatGPT Business v0.2
+
+The completed GPT-5.6 Sol analysis shows that **directness affects interpersonal evaluation more strongly than downstream managerial action**. Direct wording was rated as less cooperative and less professional after multiplicity correction, while managerial intervention need and categorical managerial recommendations were substantially more invariant.
+
+See [`docs/results_summary_chatgpt_business_v0.2.md`](docs/results_summary_chatgpt_business_v0.2.md) for the full results, diagnostics, limitations, and reproducibility paths.
+
