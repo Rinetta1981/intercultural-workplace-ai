@@ -1,0 +1,19 @@
+project,outcome,contrast,n_families,pearson_r
+IWA,communicative_appropriateness,directness,10,0.798
+IWA,communicative_appropriateness,register,10,0.023
+IWA,communicative_appropriateness,interaction,10,-0.243
+IWA,competence,directness,10,0.136
+IWA,competence,register,10,-0.000
+IWA,competence,interaction,10,0.429
+IWA,cooperativeness,directness,10,0.651
+IWA,cooperativeness,register,10,0.250
+IWA,cooperativeness,interaction,10,-0.186
+IWA,leadership_potential,directness,10,0.106
+IWA,leadership_potential,register,10,0.217
+IWA,leadership_potential,interaction,10,0.514
+IWA,managerial_intervention_need,directness,10,NA (constant vector)
+IWA,managerial_intervention_need,register,10,NA (constant vector)
+IWA,managerial_intervention_need,interaction,10,NA (constant vector)
+IWA,professionalism,directness,10,0.406
+IWA,professionalism,register,10,0.024
+IWA,professionalism,interaction,10,0.024

@@ -1,0 +1,7 @@
+project,outcome,chatgpt_status,gemini_status,chatgpt_levels,gemini_levels,chatgpt_warning,gemini_warning
+IWA,communicative_appropriateness,fit_ok,fit_ok,2,3,,"(1) Hessian is numerically singular: parameters are not uniquely determined In addition: Absolute convergence criterion was met, but relative criterion was not met"
+IWA,competence,fit_ok,fit_ok,3,3,,
+IWA,cooperativeness,fit_ok,fit_ok,3,3,,
+IWA,leadership_potential,fit_ok,fit_ok,4,3,,
+IWA,managerial_intervention_need,fit_error,fit_error,1,1,length of start is 5 should equal 3,length of start is 5 should equal 3
+IWA,professionalism,fit_ok,fit_ok,2,3,,"(1) Hessian is numerically singular: parameters are not uniquely determined In addition: Absolute convergence criterion was met, but relative criterion was not met"

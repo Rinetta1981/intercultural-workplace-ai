@@ -1,0 +1,7 @@
+project,register,category,chatgpt_count,gemini_count,chatgpt_proportion,gemini_proportion,gemini_minus_chatgpt_proportion
+IWA,conversational,acknowledge,19,11,0.31666666666666665,0.18333333333333332,-0.13333333333333333
+IWA,conversational,clarify,5,13,0.08333333333333333,0.21666666666666667,0.13333333333333336
+IWA,conversational,none,36,36,0.6,0.6,0.0
+IWA,institutional,acknowledge,15,12,0.25,0.2,-0.04999999999999999
+IWA,institutional,clarify,10,12,0.16666666666666666,0.2,0.033333333333333354
+IWA,institutional,none,35,36,0.5833333333333334,0.6,0.016666666666666607
