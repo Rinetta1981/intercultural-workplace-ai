@@ -1,0 +1,11 @@
+project,dimension,level,category,chatgpt_proportion,gemini_proportion,gemini_minus_chatgpt
+IWA,directness,direct,acknowledge,0.2833333333333333,0.2,-0.08333333333333331
+IWA,directness,direct,clarify,0.13333333333333333,0.2,0.06666666666666668
+IWA,directness,direct,none,0.5833333333333334,0.6,0.016666666666666607
+IWA,directness,mitigated,acknowledge,0.2833333333333333,0.18333333333333332,-0.1
+IWA,directness,mitigated,clarify,0.11666666666666667,0.21666666666666667,0.1
+IWA,directness,mitigated,none,0.6,0.6,0.0
+GTCL,directness,direct,collaborative_problem_solving,0.48333333333333334,0.35,-0.13333333333333336
+GTCL,directness,direct,direct_clarification,0.5166666666666667,0.65,0.1333333333333333
+GTCL,directness,mitigated,collaborative_problem_solving,0.4666666666666667,0.36666666666666664,-0.10000000000000003
+GTCL,directness,mitigated,direct_clarification,0.5333333333333333,0.6333333333333333,0.09999999999999998

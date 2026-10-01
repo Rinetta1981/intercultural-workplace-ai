@@ -1,0 +1,40 @@
+project,outcome,contrast,pearson_r_n10_families
+IWA,communicative_appropriateness,directness,0.798
+IWA,communicative_appropriateness,register,0.023
+IWA,communicative_appropriateness,interaction,-0.243
+IWA,competence,directness,0.136
+IWA,competence,register,-0.000
+IWA,competence,interaction,0.429
+IWA,cooperativeness,directness,0.651
+IWA,cooperativeness,register,0.250
+IWA,cooperativeness,interaction,-0.186
+IWA,leadership_potential,directness,0.106
+IWA,leadership_potential,register,0.217
+IWA,leadership_potential,interaction,0.514
+IWA,managerial_intervention_need,directness,NA (constant vector)
+IWA,managerial_intervention_need,register,NA (constant vector)
+IWA,managerial_intervention_need,interaction,NA (constant vector)
+IWA,professionalism,directness,0.406
+IWA,professionalism,register,0.024
+IWA,professionalism,interaction,0.024
+GTCL,addressee_responsibility,directness,0.563
+GTCL,addressee_responsibility,register,-0.644
+GTCL,addressee_responsibility,interaction,-0.225
+GTCL,conflict_severity,directness,0.156
+GTCL,conflict_severity,register,-0.373
+GTCL,conflict_severity,interaction,-0.523
+GTCL,escalation_need,directness,NA (constant vector)
+GTCL,escalation_need,register,NA (constant vector)
+GTCL,escalation_need,interaction,NA (constant vector)
+GTCL,managerial_intervention_need,directness,NA (constant vector)
+GTCL,managerial_intervention_need,register,NA (constant vector)
+GTCL,managerial_intervention_need,interaction,NA (constant vector)
+GTCL,speaker_aggression,directness,0.369
+GTCL,speaker_aggression,register,0.554
+GTCL,speaker_aggression,interaction,0.554
+GTCL,speaker_cooperativeness,directness,-0.040
+GTCL,speaker_cooperativeness,register,-0.498
+GTCL,speaker_cooperativeness,interaction,0.270
+GTCL,speaker_responsibility,directness,-0.229
+GTCL,speaker_responsibility,register,0.555
+GTCL,speaker_responsibility,interaction,-0.497
